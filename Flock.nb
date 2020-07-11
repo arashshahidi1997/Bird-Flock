@@ -1,0 +1,120 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      4318,        112]
+NotebookOptionsPosition[      3895,         96]
+NotebookOutlinePosition[      4238,        111]
+CellTagsIndexPosition[      4195,        108]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"Manipulate", "[", 
+  RowBox[{
+   RowBox[{"Plot", "[", 
+    RowBox[{
+     FractionBox["k", 
+      SuperscriptBox[
+       RowBox[{"(", 
+        RowBox[{
+         SuperscriptBox["\[Sigma]", "2"], "+", "y"}], ")"}], "\[Beta]"]], ",", 
+     RowBox[{"{", 
+      RowBox[{"y", ",", "0", ",", "100"}], "}"}]}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"k", ",", "0", ",", "10"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\[Sigma]", ",", "0", ",", "10"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\[Beta]", ",", "0", ",", "1"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.7986797471898584`*^9, 3.7986798385892506`*^9}, 
+   3.7986799364891543`*^9, {3.8005226152760873`*^9, 3.800522619740306*^9}, {
+   3.800525671451311*^9, 3.800525672374632*^9}},
+ CellLabel->
+  "In[345]:=",ExpressionUUID->"d3639a06-a248-4ac5-8208-707be7fd4e93"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`k$$ = 
+    9.850537754320563, $CellContext`\[Beta]$$ = 
+    0.17608742108780034`, $CellContext`\[Sigma]$$ = 1.3422586996710197`, 
+    Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
+    Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ = 
+    1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{
+      Hold[$CellContext`k$$], 0, 10}, {
+      Hold[$CellContext`\[Sigma]$$], 0, 10}, {
+      Hold[$CellContext`\[Beta]$$], 0, 1}}, Typeset`size$$ = {
+    360., {108., 113.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
+    Typeset`skipInitDone$$ = True, $CellContext`k$23722$$ = 
+    0, $CellContext`\[Sigma]$23723$$ = 0, $CellContext`\[Beta]$23724$$ = 0}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, 
+      "Variables" :> {$CellContext`k$$ = 0, $CellContext`\[Beta]$$ = 
+        0, $CellContext`\[Sigma]$$ = 0}, "ControllerVariables" :> {
+        Hold[$CellContext`k$$, $CellContext`k$23722$$, 0], 
+        Hold[$CellContext`\[Sigma]$$, $CellContext`\[Sigma]$23723$$, 0], 
+        Hold[$CellContext`\[Beta]$$, $CellContext`\[Beta]$23724$$, 0]}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, "Body" :> 
+      Plot[$CellContext`k$$/($CellContext`\[Sigma]$$^2 + \
+$CellContext`y)^$CellContext`\[Beta]$$, {$CellContext`y, 0, 100}], 
+      "Specifications" :> {{$CellContext`k$$, 0, 
+         10}, {$CellContext`\[Sigma]$$, 0, 10}, {$CellContext`\[Beta]$$, 0, 
+         1}}, "Options" :> {}, "DefaultOptions" :> {}],
+     ImageSizeCache->{411., {183., 189.}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    SynchronousInitialization->True,
+    UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellChangeTimes->{{3.798679843606265*^9, 3.7986798651676826`*^9}, 
+   3.798679937073184*^9, {3.8005226097324347`*^9, 3.8005226202000227`*^9}, 
+   3.8005256728118873`*^9},
+ CellLabel->
+  "Out[345]=",ExpressionUUID->"83b1b41f-7a5e-4f1c-8f5b-b1458323e26f"]
+}, Open  ]]
+},
+WindowSize->{759, 813},
+WindowMargins->{{192, Automatic}, {50, Automatic}},
+FrontEndVersion->"11.3 for Microsoft Windows (64-bit) (March 6, 2018)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 852, 22, 57, "Input",ExpressionUUID->"d3639a06-a248-4ac5-8208-707be7fd4e93"],
+Cell[1435, 46, 2444, 47, 391, "Output",ExpressionUUID->"83b1b41f-7a5e-4f1c-8f5b-b1458323e26f"]
+}, Open  ]]
+}
+]
+*)
+

@@ -1,0 +1,4 @@
+N=100
+dimension=2
+model: Smale
+parameters: K = 1, sigma = 1, beta = 0.3

@@ -1,0 +1,19 @@
+Run the following codes to initialize:
+	ResetFolderNum
+
+	Command
+		flock = Flock(N=10, total_steps=100, step_size=0.001,
+				 dimension=2, model=Smale(beta=0.3, K=1, sigma=1))
+
+    		flock = Flock(N=2, initial_conditions="normal", dimension=2, model=,
+			 total_steps=100, step_size=0.001)
+
+		One of the following models must be given as an argument to model= in Flock:
+			# Models:
+				Vicsek(r_c2)
+			
+				ConstantSpeedVicsek(r_c2)
+
+				"here r_c2 is the cutoff distance squred."
+	
+				Smale(beta=0.3, K=1, sigma=1)

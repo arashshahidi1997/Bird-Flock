@@ -1,0 +1,1 @@
+N=10dimension=2model: Smaleparameters: K = 1sigma = 1beta = 0.3
